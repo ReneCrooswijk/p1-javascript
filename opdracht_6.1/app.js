@@ -7,3 +7,4 @@ function kleur_aanpassen() {
     element.style.fontWeight = "normal";
     element.innerText = "Inhoud aangepast!"
 }
+kleur_aanpassen.call()

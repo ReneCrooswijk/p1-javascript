@@ -1,17 +1,22 @@
-function calculate(num, num2) {
-    let answer = num + num2;
-    console.log(answer)
+function calculate(x, y){
+    console.log(x + y)
 }
-calculate(2, 3);
+calculate(15, 4)
 
-function multiplyByFive(num3) {
-    let answer2 = num3 * 5;
-    console.log(answer2)
+function multiplyByFive(z){
+    console.log(z * 5)
 }
-multiplyByFive(7)
+multiplyByFive(5)
 
-function calculateminutes(num4) {
-    let answer3 = num4 / 60;
-    console.log(answer3)
+
+function checkInput(x, y) {
+var antwoord = Math.max(x, y)
+console.log(antwoord)
 }
-calculateminutes(3600)
+checkInput(15, 30)
+
+
+function calculateMinutes(x) {
+    console.log(x / 60)
+}
+calculateMinutes(120)

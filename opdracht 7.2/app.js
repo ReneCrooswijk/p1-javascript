@@ -1,6 +1,6 @@
-const budget = 100;
+const budget = 100
 
-let product = 60;
+let product = prompt("Kosten Product")
 
 if (product > budget) {
     console.log("Helaas, te weinig Geld"); 

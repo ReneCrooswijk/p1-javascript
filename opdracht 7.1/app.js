@@ -5,5 +5,5 @@ let product = 60;
 if (product > budget) {
     console.log("Helaas, te weinig Geld"); 
 }    else { 
-    console.log("U heeft genoeg geld!");
+    console.log("U heeft genoeg gedl!");
 }

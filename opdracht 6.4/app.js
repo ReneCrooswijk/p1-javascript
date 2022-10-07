@@ -10,8 +10,8 @@ multiplyByFive(5)
 
 
 function checkInput(x, y) {
-let antwoord = Math.max(x, y)
-console.log(antwoord)
+let answer = Math.max(x, y)
+console.log(answer)
 }
 checkInput(15, 30)
 

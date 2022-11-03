@@ -1,11 +1,17 @@
-let clicker = document.getElementById("clicker")
+let clicker = document.getElementById("clicker");
 
-let count = 0;
+    let out = 0;
 
-function addscore() {
-    count++
-    clicker.Innertext = count;
-    if (count> 9) {
-        count = 0
-    }
+
+
+    function addScore() {
+
+        out++
+
+        clicker.innerText = out;
+
+        if (out > 8)
+
+        out = -1;
+
 }

@@ -8,6 +8,8 @@ function PlusCalculate() {
     let y = Number(input2.value);
 
     output.innerText = x + y
+
+    if (x < 0 || y < 0) output.innerText = "het getal is te laag"
 }
 
 function MinusCalculate() {
@@ -18,6 +20,8 @@ function MinusCalculate() {
     let y = Number(input2.value);
 
     output.innerText = x - y
+
+    if (x < 0 || y < 0) output.innerText = "het getal is te laag"
 }
 
 function MultiplyCalculate() {
@@ -28,6 +32,8 @@ function MultiplyCalculate() {
     let y = Number(input2.value);
 
     output.innerText = x * y;
+
+    if (x < 0 || y < 0) output.innerText = "het getal is te laag"
 }
 
 function DivideCalculate() {
@@ -38,4 +44,6 @@ function DivideCalculate() {
     let y = Number(input2.value);
 
     output.innerText = x / y
+
+    if (x < 0 || y < 0) output.innerText = "het getal is te laag"
 }
